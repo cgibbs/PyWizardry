@@ -1,0 +1,5 @@
+pick random valid edge of room
+if adjacent room on that edge is virgin, choose it
+else re-select from remaining edges
+if no open edges, pop to room with open edges
+repeat until stack empty
